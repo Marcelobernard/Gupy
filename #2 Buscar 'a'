@@ -1,0 +1,6 @@
+x = input("Digite algo: ")
+calc = x.lower().count('a')
+if calc > 0:
+    print(f"A letra 'a' apareceu {calc} vezes!")
+else:
+    print("Não foi encontrada a letra 'a'")

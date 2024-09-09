@@ -1,0 +1,12 @@
+a, b = 0, 1
+fibonacci = [a, b]
+x = int(input("Digite um número: "))
+
+while b <= x:
+    a, b = b, a + b
+    fibonacci.append(b)
+
+if x in fibonacci:
+    print(f"Número: {x} | PERTENCE à sequência de Fibonacci.")
+else:
+    print(f"Número: {x} | NÃO PERTENCE à sequência de Fibonacci.")
